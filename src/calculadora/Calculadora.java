@@ -8,10 +8,6 @@ package calculadora;
  */
 public class Calculadora {
 
-    /** Cria uma calculadora sem estado interno. */
-    public Calculadora() {
-    }
-
     /**
      * Calcula o resultado da operação indicada.
      *
@@ -26,19 +22,6 @@ public class Calculadora {
             throw new IllegalArgumentException("Operação inválida: o operador não pode ser nulo.");
         }
 
-        return aplicarOperacao(a, b, op);
-    }
-
-    /**
-     * Direciona o cálculo para a operação solicitada.
-     *
-     * @param a primeiro operando
-     * @param b segundo operando
-     * @param op operador validado como não nulo
-     * @return resultado da operação
-     * @throws IllegalArgumentException se o operador não for suportado ou a divisão for por zero
-     */
-    private int aplicarOperacao(int a, int b, String op) {
         return switch (op) {
             case "+" -> a + b;
             case "-" -> a - b;

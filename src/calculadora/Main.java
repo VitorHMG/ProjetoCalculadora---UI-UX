@@ -1,15 +1,11 @@
 package calculadora;
 
-import java.util.Scanner;
 import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 /** Ponto de entrada interativo da calculadora. */
 public class Main {
-    /** Cria o ponto de entrada da aplicação. */
-    public Main() {
-    }
-
-    /** Inicia uma sessão, lê dois inteiros e um operador e apresenta o resultado.
+    /** Inicia uma sessão e apresenta o resultado da operação informada.
      * @param args argumentos de linha de comando (não utilizados)
      */
     public static void main(String[] args) {

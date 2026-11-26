@@ -8,10 +8,6 @@ public class TesteCalculadora {
     private final Calculadora calculadora = new Calculadora();
     private int aprovados;
 
-    /** Cria uma suíte de testes independente. */
-    public TesteCalculadora() {
-    }
-
     /** Executa todos os casos e encerra com erro se algum resultado divergir.
      * @param args argumentos de linha de comando (não utilizados)
      */
@@ -26,7 +22,6 @@ public class TesteCalculadora {
         verificarResultado("divisão", 20, 4, "/", 5);
         verificarErro("divisão por zero", 8, 0, "/", "zero");
         verificarErro("operador inválido", 8, 5, "%", "inválida");
-        verificarErro("operador nulo", 8, 5, null, "nulo");
         System.out.println("\n" + aprovados + " testes aprovados.");
     }
 

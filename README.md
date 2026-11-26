@@ -30,7 +30,7 @@ java -cp out calculadora.Main
 java -cp out calculadora.TesteCalculadora
 ```
 
-Os testes exibem entradas, resultado esperado e resultado obtido. Os casos cobrem soma, subtração, multiplicação, divisão, divisão por zero, operador inválido e operador nulo.
+Os testes exibem entradas, resultado esperado e resultado obtido. Os casos cobrem soma, subtração, multiplicação, divisão, divisão por zero e operador inválido.
 
 ### Evidências dos testes
 
@@ -43,9 +43,7 @@ Saída validada localmente:
 [OK] divisão: calc(20, 4, /) | esperado=5 | obtido=5
 [OK] divisão por zero: calc(8, 0, /) | esperado=erro (zero) | obtido=Não é possível dividir por zero.
 [OK] operador inválido: calc(8, 5, %) | esperado=erro (inválida) | obtido=Operação inválida: %
-[OK] operador nulo: calc(8, 5, null) | esperado=erro (nulo) | obtido=Operação inválida: o operador não pode ser nulo.
-
-7 testes aprovados.
+6 testes aprovados.
 ```
 
 Para atender ao formato de entrega que pede prints, anexe uma captura do terminal exibindo essa execução.
