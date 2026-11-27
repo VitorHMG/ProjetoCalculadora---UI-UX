@@ -1,5 +1,7 @@
 # Projeto Calculadora — FinançApp
 
+Repositório acadêmico do projeto de calculadora.
+
 ## Descrição e objetivo
 
 Calculadora em Java para apoiar cálculos básicos do aplicativo fictício FinançApp. A atividade demonstra implementação, validação por testes, tratamento de erros, refatoração, documentação técnica e versionamento.
