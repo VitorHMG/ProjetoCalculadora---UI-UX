@@ -50,7 +50,9 @@ Saída validada localmente:
 7 testes aprovados.
 ```
 
-Para atender ao formato de entrega que pede prints, anexe uma captura do terminal exibindo essa execução.
+Captura da execução dos testes na IDE:
+
+![Execução dos testes da calculadora](evidencias/testes.jpg)
 
 ## Documentação JavaDoc
 
@@ -64,7 +66,9 @@ O arquivo de entrada é `docs/index.html` quando gerado pela configuração comp
 
 ### Evidências da documentação
 
-A documentação gerada está em [`docs/index.html`](docs/index.html). Para atender ao formato de entrega que pede prints, anexe uma captura dessa página aberta no navegador.
+A documentação gerada está em [`docs/index.html`](docs/index.html).
+
+![JavaDoc do pacote calculadora](evidencias/javadoc.jpg)
 
 ## Refatoração e versionamento
 
@@ -81,4 +85,6 @@ src/calculadora/Calculadora.java
 src/calculadora/Main.java
 src/calculadora/TesteCalculadora.java
 docs/                         (gerado com JavaDoc)
+evidencias/testes.jpg         (execução dos testes)
+evidencias/javadoc.jpg        (JavaDoc no navegador)
 ```
