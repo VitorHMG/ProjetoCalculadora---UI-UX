@@ -70,7 +70,7 @@ O método de divisão foi extraído para `dividir`, os nomes descrevem o papel d
 
 ## Repositório
 
-Link do GitHub: **adicione aqui a URL do repositório remoto**.
+Link do GitHub: [VitorHMG/ProjetoCalculadora---UI-UX](https://github.com/VitorHMG/ProjetoCalculadora---UI-UX).
 
 ## Estrutura
 
